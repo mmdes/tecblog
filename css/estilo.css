@@ -1,0 +1,27 @@
+/*Limpeza de formatação padrão*/
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-size: 1 em;
+    font-size: "Trebuchet MS", Helvetica, sans-serif;
+    background: #e6e6e6;
+}
+
+/*
+**** Layout ****
+*/
+
+#area-cabecalho{
+    background-color: #f7b600;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, area-menu {
+    padding: 10px;
+}

@@ -10,6 +10,7 @@ body{
     font-size: 1 em;
     font-size: "Trebuchet MS", Helvetica, sans-serif;
     background: #e6e6e6;
+ 
 }
 
 /*
@@ -24,6 +25,39 @@ body{
 
 #area-logo, #area-menu {
     padding: 10px;
+}
+
+#area-principal{
+
+    width: 920px;
+    margin: 0 auto; /*Se reduzir ou aumenta o tamanho da tela, a margem do lado se ajusta automaticante*/
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+#area-postagens, #area-lateral{
+    background-color: orange;
+}
+
+#rodape{
+    clear: both; /*Remover o fluxo dos elementos flutuantes (para rodapé não ficar abaixo)*/
+    padding: 15px;
+    background: #CCC;
+    text-align: center;
 }
 
 /*

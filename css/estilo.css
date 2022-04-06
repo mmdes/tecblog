@@ -49,15 +49,25 @@ body{
     background: white;
 }
 
-#area-postagens, #area-lateral{
-    background-color: orange;
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
 }
+
 
 #rodape{
     clear: both; /*Remover o fluxo dos elementos flutuantes (para rodapé não ficar abaixo)*/
     padding: 15px;
     background: #CCC;
     text-align: center;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #CCC;
+
 }
 
 /*
@@ -68,6 +78,8 @@ a{
     text-decoration: none;
 }
 
+
+/* Utilizou regra geral e depois utilizou uma regra mais específica*/
 a:link, a:visited{
     color: #f7b600; 
     
@@ -79,6 +91,7 @@ a:hover{
 
 
 /*Estado do link */
+/*Regra cascata CSS*/
 #area-cabecalho a:link, #area-cabecalho a:visited{
     color: #FFF; 
     padding: 8px 12px;
@@ -87,6 +100,7 @@ a:hover{
 #area-cabecalho a:hover{
     color: #f7b600;
     background: white;
+    text-decoration: none;
 }
 
 
@@ -101,7 +115,12 @@ h1 {
 }
 
 h2{
-    color:#f7b600
+    color:#f7b600;
+}
+
+h3{
+    color: #565656;
+    background: #CCC;
 }
 
 .branco{
@@ -113,5 +132,5 @@ h2{
     border-bottom: 1px solid #f4f4f4;
     padding-bottom: 10px;
     display: block; /* tag span não tem comportamento em bloco */
-
 }
+
